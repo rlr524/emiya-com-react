@@ -4,7 +4,7 @@ import emiyaLogo from "./ec_new_logo_tags_small.svg";
 const Navbar = () => {
   return (
     <div className="bg-primary">
-      <nav className="navbar p-2">
+      <nav className="navbar py-2">
         <div className="logo-main">
           <a href="/">
             <img src={emiyaLogo} alt="" />
