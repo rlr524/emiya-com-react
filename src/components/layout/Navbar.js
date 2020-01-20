@@ -19,15 +19,15 @@ const Navbar = () => {
         <p>
           <a href="/services">Services</a>
         </p>
-        <p>
+        {/* <p>
           <a href="/blog">Blog</a>
-        </p>
+        </p> */}
         <p>
           <a href="/contact">Contact</a>
         </p>
-        <p>
+        {/* <p>
           <a href="/client">Client Login</a>
-        </p>
+        </p> */}
       </nav>
     </div>
   );

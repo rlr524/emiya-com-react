@@ -43,7 +43,7 @@ img {
 /* Navbar */
 .navbar {
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-end;
   align-items: center;
   z-index: 1;
   opacity: 0.9;
@@ -59,6 +59,11 @@ img {
 
 .navbar a:hover {
   text-decoration: underline;
+}
+
+.logo-main {
+  display: flex;
+  justify-content: flex-start;
 }
 
 /* Main content */
