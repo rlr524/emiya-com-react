@@ -6,7 +6,7 @@ import Hero from "./components/layout/Hero";
 
 const App = () => {
   return (
-    <div className="App">
+    <div className="App container">
       <Navbar />
       <Main />
       <Hero />

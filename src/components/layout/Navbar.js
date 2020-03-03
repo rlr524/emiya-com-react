@@ -7,7 +7,7 @@ const Navbar = () => {
       <nav className="navbar py-2">
         <div className="logo-main">
           <a href="/">
-            <img src={emiyaLogo} alt="" />
+            <img className="logo-img" src={emiyaLogo} alt="" />
           </a>
         </div>
         <div className="nav-right">
