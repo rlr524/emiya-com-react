@@ -37,17 +37,27 @@ img {
 }
 
 .bg-html {
-  background: url(./static/CanvaHTMLCode.png);
+  background: url(./static/ComputerandNotebookonaWoodenSurface.png);
+}
+
+.hidden-text {
+  display: none;
 }
 
 /* Navbar */
 .navbar {
   display: flex;
-  justify-content: flex-end;
   align-items: center;
+  justify-content: space-between;
   z-index: 1;
   opacity: 0.9;
   margin: 0 10% 0 10%;
+}
+
+.nav-right {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
 }
 
 .navbar a {

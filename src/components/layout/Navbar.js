@@ -10,21 +10,23 @@ const Navbar = () => {
             <img src={emiyaLogo} alt="" />
           </a>
         </div>
-        <p>
-          <a href="/portfolio">Portfolio</a>
-        </p>
-        <p>
-          <a href="/cv">C.V.</a>
-        </p>
-        <p>
-          <a href="/services">Services</a>
-        </p>
-        {/* <p>
+        <div className="nav-right">
+          <p>
+            <a href="/portfolio">Portfolio</a>
+          </p>
+          <p>
+            <a href="/cv">C.V.</a>
+          </p>
+          <p>
+            <a href="/services">Services</a>
+          </p>
+          {/* <p>
           <a href="/blog">Blog</a>
         </p> */}
-        <p>
-          <a href="/contact">Contact</a>
-        </p>
+          <p>
+            <a href="/contact">Contact</a>
+          </p>
+        </div>
         {/* <p>
           <a href="/client">Client Login</a>
         </p> */}
