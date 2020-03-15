@@ -1,5 +1,5 @@
 import React from "react";
-import emiyaLogo from "./ec_new_logo_tags_small.svg";
+import emiyaLogo from "./img/ec_new_logo_tags_small.svg";
 
 const Navbar = () => {
   return (
@@ -12,13 +12,10 @@ const Navbar = () => {
         </div>
         <div className="nav-right">
           <p>
-            <a href="/portfolio">Portfolio</a>
-          </p>
-          <p>
             <a href="/cv">C.V.</a>
           </p>
           <p>
-            <a href="/services">Services</a>
+            <a href="/pricing">Pricing</a>
           </p>
           {/* <p>
           <a href="/blog">Blog</a>

@@ -2,14 +2,14 @@ import React from "react";
 import "./App.css";
 import Navbar from "./components/layout/Navbar";
 import Main from "./components/layout/Main";
-import Hero from "./components/layout/Hero";
+import Card from "./components/layout/Card";
 
 const App = () => {
   return (
     <div className="App container">
       <Navbar />
       <Main />
-      <Hero />
+      <Card />
     </div>
   );
 };
