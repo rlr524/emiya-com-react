@@ -12,9 +12,6 @@ const Navbar = () => {
         </div>
         <div className="nav-right">
           <p>
-            <a href="/cv">C.V.</a>
-          </p>
-          <p>
             <a href="/pricing">Pricing</a>
           </p>
           {/* <p>
